@@ -5,7 +5,7 @@
 #
 
 # A/B
-TARGET_IS_VAB := true
+TARGET_IS_VAB := false
 
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2880
+TARGET_SCREEN_WIDTH := 1800
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -35,7 +35,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
