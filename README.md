@@ -4,7 +4,7 @@
 **Announced	2023, April 18**
 
 
-#DISPLAY 
+#headerDISPLAY 
 ##Type 
 IPS LCD, 1B colors, 144Hz, HDR10, Dolby Vision, 550 nits
 ##Size
