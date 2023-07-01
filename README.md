@@ -1,11 +1,13 @@
-
 Announced	2023, April 18
 
 
-DISPLAY 
-Type IPS LCD, 1B colors, 144Hz, HDR10, Dolby Vision, 550 nits
-Size	11.0 inches, 350.9 cm2 (~83.6% screen-to-body ratio)
-Resolution	1800 x 2880 pixels, 16:10 ratio (~309 ppi density)
+#DISPLAY 
+##Type 
+IPS LCD, 1B colors, 144Hz, HDR10, Dolby Vision, 550 nits
+##Size
+11.0 inches, 350.9 cm2 (~83.6% screen-to-body ratio)
+##Resolution
+1800 x 2880 pixels, 16:10 ratio (~309 ppi density)
 
 DEVICE INFO
 OS	Android 13, MIUI 14
