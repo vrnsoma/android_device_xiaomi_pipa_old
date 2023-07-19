@@ -1,6 +1,6 @@
 # Unpinned blobs from alioth_global-user 13 RKQ1.211001.001 V14.0.4.0.TKHMIXM release-keys
 
-# ACDB
+# ACDB (DONE)
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb
@@ -11,7 +11,7 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_S
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP modules
+# ADSP modules (DONE)
 
 vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
 vendor/lib/rfsa/adsp/hrtf5c.bin
@@ -49,79 +49,43 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 
-# Audio-Hardware
+# Audio-Hardware (DONE)
 vendor/lib/hw/audio.primary.kona.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib/libfcsam.so
 vendor/lib/libmmhardware.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
-# Audio (Firmware)
-vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z.bin
-vendor/firmware/cs35l41-dsp1-diag-z.wmfw
-vendor/firmware/cs35l41-dsp1-diag.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/rcv_voice_delta.txt
-vendor/firmware/spk1_playback_delta.txt
-vendor/firmware/spk1_voice_delta.txt
-vendor/firmware/spk2_playback_delta.txt
-vendor/firmware/spk2_voice_delta.txt
+# Audio (Firmware) (DONE)
 
-# Camera
-vendor/lib64/camera/com.qti.actuator.alioth_dw9800.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_hi556_p24c64f.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_imx355_bl24s64.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_imx582_gt24p128c.so
-vendor/lib64/camera/com.qti.eeprom.alioth_ofilm_s5k3t2_ofl2488.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_imx355_gt24p64e.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_imx582_gt24p128e.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_s5k3t2_p24c64f.so
-vendor/lib64/camera/com.qti.eeprom.alioth_sunny_s5k5e9yx04_p24c64f.so
+
+
+# Camera(UNFINSHED)
+vendor/lib64/camera/com.qti.actuator.pipa_cn3927_ov13b10.so
+vendor/lib64/camera/com.qti.eeprom.pipa_aac_hi846w_gt24p64e_front_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.pipa_ofilm_ov13b10_bl24sa64_wide_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.eeprom.umi_sunny_s5k5e8yx_depth.so
-vendor/lib64/camera/com.qti.sensor.alioth_hi556.so
-vendor/lib64/camera/com.qti.sensor.alioth_imx355.so
-vendor/lib64/camera/com.qti.sensor.alioth_imx582.so
-vendor/lib64/camera/com.qti.sensor.alioth_s5k3t2.so
-vendor/lib64/camera/com.qti.sensor.alioth_s5k5e9yx04.so
 vendor/lib64/camera/com.qti.sensor.imx563.so
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_hi556_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_imx355_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_imx582_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_ofilm_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_imx355_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_imx582_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.alioth_sunny_s5k5e9yx04_macro.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_hi556_macro.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_imx355_ultra.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_imx582_wide.bin
-vendor/lib64/camera/com.qti.tuned.alioth_ofilm_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_imx355_ultra.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_imx582_wide.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_s5k3t2_front.bin
-vendor/lib64/camera/com.qti.tuned.alioth_sunny_s5k5e9yx04_macro.bin
+vendor/lib64/camera/com.qti.sensor.pipa_aac_hi846w_front.so
+vendor/lib64/camera/com.qti.sensor.pipa_ofilm_ov13b10_wide.so
+vendor/lib64/camera/com.qti.sensormodule.pipa_aac_hi846w_front.bin
+vendor/lib64/camera/com.qti.sensormodule.pipa_ofilm_ov13b10_wide.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.pipa_aac_hi846w_front.bin
+vendor/lib64/camera/com.qti.tuned.pipa_ofilm_ov13b10_wide.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
+
 vendor/lib64/hw/camera.qcom.so|ebf7d021f6ab0c7d822af85fbf6547f7fa5b481e
 vendor/lib64/hw/com.qti.chi.override.so
+
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -141,7 +105,8 @@ vendor/lib64/com.qti.feature2.softispsupernight.so
 vendor/lib64/com.qti.feature2.sr.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
-vendor/lib64/libHalSuperSensorServer.so
+
+---working--
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libSNPE.so
@@ -224,20 +189,17 @@ vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|8629ddc55445116852140a88c6d272683ac6bd49
 
-# Camera-arcsoft
+# Camera-arcsoft (DONE)
 vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_bodyslim.so
-vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_refocus_image.so
-vendor/lib64/libarcsoft_dualcam_refocus_video.so
+vendor/lib64/libarcsoft_dualcam_refocus.so
 vendor/lib64/libarcsoft_hdr_detection.so
-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
+vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_mf_superresolution.so
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_preview_deflicker.so
+vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/libarcsoft_superportrait.so
 
 # Camera (camerax)
 vendor/lib/libcamxexternalformatutils.so
