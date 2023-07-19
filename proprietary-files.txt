@@ -11,8 +11,9 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_S
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP modules (DONE)
 
+
+# ADSP modules (DONE)
 vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
 vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
@@ -48,6 +49,8 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
+
+
 
 # Audio-Hardware (DONE)
 vendor/lib/hw/audio.primary.kona.so
@@ -201,7 +204,7 @@ vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libarcsoft_super_night_raw.so
 
-# Camera (camerax)
+# Camera (camerax) (DONE)
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxfacialfeatures.so
 vendor/lib/libcamxfdalgo.so
@@ -212,52 +215,26 @@ vendor/lib/libcamxncs.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
-vendor/lib64/libcamxexternalformatutils.so
-vendor/lib64/libcamxfacialfeatures.so
-vendor/lib64/libcamxfdalgo.so
-vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxifestriping.so
-vendor/lib64/libcamximageformatutils.so
-vendor/lib64/libcamxncs.so
-vendor/lib64/libcamxstatscore.so
-vendor/lib64/libcamxswprocessalgo.so
-vendor/lib64/libcamxtintlessalgo.so
 
-# Camera components
-vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
-vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so
-vendor/lib64/camera/components/com.arcsoft.node.superportrait.so
-vendor/lib64/camera/components/com.facepp.node.siq.so
-vendor/lib64/camera/components/com.mi.node.AIIE.so
+# Camera components (DONE)
 vendor/lib64/camera/components/com.mi.node.aiasd.so
-vendor/lib64/camera/components/com.mi.node.bodyslim.so
-vendor/lib64/camera/components/com.mi.node.distortioncorrection.so
-vendor/lib64/camera/components/com.mi.node.hdr.so
+vendor/lib64/camera/components/com.mi.node.facecenter.so
+vendor/lib64/camera/components/com.mi.node.gpu3rd.so
 vendor/lib64/camera/components/com.mi.node.mimovie.so
-vendor/lib64/camera/components/com.mi.node.realtimebokeh.so
-vendor/lib64/camera/components/com.mi.node.rearvideo.so
+vendor/lib64/camera/components/com.mi.node.misuperlowlightraw.so
 vendor/lib64/camera/components/com.mi.node.skinbeautifier.so
 vendor/lib64/camera/components/com.mi.node.superlowlightraw.so
-vendor/lib64/camera/components/com.mi.node.videobokeh.so
-vendor/lib64/camera/components/com.mi.node.watermark.so|abe149107d2dd51773467269308ba6af5cb7741c
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so
 vendor/lib64/camera/components/com.qti.hvx.binning.so
-vendor/lib64/camera/components/com.qti.node.customhwnode.so
-vendor/lib64/camera/components/com.qti.node.depth.so
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so
-vendor/lib64/camera/components/com.qti.node.dummysat.so
 vendor/lib64/camera/components/com.qti.node.eisv2.so
 vendor/lib64/camera/components/com.qti.node.eisv3.so
-vendor/lib64/camera/components/com.qti.node.fcv.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
 vendor/lib64/camera/components/com.qti.node.ldc.so
 vendor/lib64/camera/components/com.qti.node.memcpy.so
-vendor/lib64/camera/components/com.qti.node.remosaic.so
-vendor/lib64/camera/components/com.qti.node.softisppost.so
-vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
 vendor/lib64/camera/components/com.qti.stats.aec.so
 vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
@@ -276,78 +253,77 @@ vendor/lib64/camera/components/com.qti.stats.tracker.so
 vendor/lib64/camera/components/com.qtistatic.stats.aec.so
 vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib64/camera/components/com.vidhance.node.eis.so
-vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
-vendor/lib64/camera/components/com.xiaomi.node.mibokeh.so
+vendor/lib64/camera/components/com.com.qtistatic.stats.pdlib.so
+vendor/lib64/camera/components/com.xiaomi.node.ica.so
 vendor/lib64/camera/components/com.xiaomi.node.mifilter.so
-vendor/lib64/camera/components/com.xiaomi.node.misegment.so
-vendor/lib64/camera/components/com.xiaomi.node.tracker.so
-vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
-# Camera configs
-vendor/camera/model/model_front.dlc
-vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
-vendor/etc/camera/CFR_para_UW_V01.bin
-vendor/etc/camera/CFR_para_UW_V07.bin
+# Camera configs (DONE)
 vendor/etc/camera/CFR_para_W_V01.bin
-vendor/etc/camera/CFR_para_W_V07.bin
+vendor/etc/camera/CFR_para_config.xml
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
 vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
-vendor/etc/camera/ai_enhance.dlc
-vendor/etc/camera/beauty_ui9_intelligent_params.config
-vendor/etc/camera/bokehParams.json
+vendor/etc/camera/almalence_sr_params_tele.config
+vendor/etc/camera/almalence_sr_params_tele4x.config
+vendor/etc/camera/almalence_sr_params_tele4x_iso100.config
+vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config
+vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config
+vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config
+vendor/etc/camera/almalence_sr_params_tele4x_moon.config
+vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config
+vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config
+vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config
+vendor/etc/camera/almalence_sr_params_tele_iso100.config
+vendor/etc/camera/almalence_sr_params_wide.config
+vendor/etc/camera/almalence_sr_params_wide_64M.config
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/com.xiaomi.dcal.wu.fake
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
-vendor/etc/camera/det_quantize.dlc
 vendor/etc/camera/eisoverridesettings.txt
-vendor/etc/camera/eyelineblush.cng
-vendor/etc/camera/goturn_search_dsp.dlc
-vendor/etc/camera/goturn_target_dsp.dlc
+vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/hdrd_ui9_params.config
+vendor/etc/camera/libarcsoft_super_night_raw_bin.so
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
 vendor/etc/camera/model.dat
+vendor/etc/camera/model_aiie_cap.dlc
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
-vendor/etc/camera/model_front_mibokeh_video.dlc
-vendor/etc/camera/reid_float.dlc
+vendor/etc/camera/person_det_dsp.dlc
 vendor/etc/camera/sceneDetection.xml
-vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/sr_params.xml
+vendor/etc/camera/thirdpartgroup.txt
 vendor/etc/camera/vidhance_calibration
+vendor/etc/camera/xiaomiSceneDetection.xml
 
-# Camera-firmware
+# Camera-firmware (DONE)
 vendor/firmware/CAMERA_ICP.elf
 
-# Camera-sensors
+# Camera-sensors (DONE)
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib64/libmulticam_image_optical_zoom.so
-vendor/lib64/libmulticam_optical_zoom_control.so
-vendor/lib64/libmulticam_video_optical_zoom.so
 
-# Charger (HVDCP)
+
+
+# Charger (HVDCP) (DONE)
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/charger_fstab.qti
 
-# Charger (Mi Turbo Charge)
+# Charger (Mi Turbo Charge) (DONE)
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
-# Display-calibration
-vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 
-# Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
+
+# Display-calibration (DONE)
+vendor/etc/qdcm_calib_data_xiaomi_m82_42_02_0b_video_mode_dual_dsi_dphy_panel.xml
+
+
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
@@ -355,7 +331,9 @@ vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# IPA firmware
+
+
+# IPA firmware (DONE)
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
@@ -370,11 +348,7 @@ vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
-# NFC
-vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp.conf
-vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
+
 
 # Sensor calibrate
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
@@ -452,6 +426,8 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
+
+
 # Thermal config
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-class0.conf
@@ -481,6 +457,4 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
-# Vibrator firmware
-vendor/firmware/aw8697_haptic.bin
-vendor/firmware/aw8697_rtp_1.bin
+
